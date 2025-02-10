@@ -1,7 +1,9 @@
 #!/bin/bash
-cd C:\Users\nithinsharma.julakan\Downloads\t1
+cd C:/Users/nithinsharma.julakan/Downloads/test1
 
-git init
+if [ ! -d ".git" ]; then
+	git init
+fi
 
 
 current_branch=$(git branch)
