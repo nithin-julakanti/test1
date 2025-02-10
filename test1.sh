@@ -14,8 +14,7 @@ git pull origin main
 
 git status
 git add .
-git commit -m "moving the dags"
+git commit -m "saved the changes"
 git push -u origin main
 
-
-echo "The script has executed without any error."
+echo "*The script has executed successfully.*"
